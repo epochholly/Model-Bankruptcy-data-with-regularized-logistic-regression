@@ -10,16 +10,16 @@ With the attributes from income statements and balance sheets, predict whether f
   - Profit
     - ROCE: profit before tax=capital employed (%)
     - FFTL: funds flow (earnings before interest, tax & depreciation)=total liabilities
-3) Gearing
-a. GEAR: (current liabilities + long-term debt)=total assets
-b. CLTA: current liabilities=total assets
-4) Liquidity
-a. CACL: current assets=current liabilities
-b. QACL: (current assets – stock)=current liabilities
-c. WCTA: (current assets – current liabilities)=total assets
-5) LAG: number of days between account year end and the date the annual report and accounts were filed at company registry.
-6) AGE: number of years the company has been operating since incorporation date.
-7) CHAUD: coded 1 if changed auditor in previous three years, 0 otherwise
-8) BIG6: coded 1 if company auditor is a Big6 auditor, 0 otherwise
+  - Gearing
+    - GEAR: (current liabilities + long-term debt)=total assets
+    - CLTA: current liabilities=total assets
+  - Liquidity
+    - CACL: current assets=current liabilities
+    - QACL: (current assets – stock)=current liabilities
+    - WCTA: (current assets – current liabilities)=total assets
+  - LAG: number of days between account year end and the date the annual report and accounts were filed at company registry.
+  - AGE: number of years the company has been operating since incorporation date.
+  - CHAUD: coded 1 if changed auditor in previous three years, 0 otherwise
+  - BIG6: coded 1 if company auditor is a Big6 auditor, 0 otherwise
 
 2. `bankrupt.R`: the main R script.
