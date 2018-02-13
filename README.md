@@ -6,7 +6,7 @@ With the attributes from income statements and balance sheets, predict whether f
 ## R scripts and data
 - `bankruptcy.csv`: the bankruptcy data set.
 1) Size
-a. Sales
+-- Sales
 2) Profit
 a. ROCE: profit before tax=capital employed (%)
 b. FFTL: funds flow (earnings before interest, tax & depreciation)=total liabilities
