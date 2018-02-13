@@ -4,13 +4,12 @@ With the attributes from income statements and balance sheets, predict whether f
 
 
 ## R scripts and data
-- `bankruptcy.csv`: the bankruptcy data set.
+1. `bankruptcy.csv`: the bankruptcy data set.
   - Size
-    -Sales
-    
-2) Profit
-a. ROCE: profit before tax=capital employed (%)
-b. FFTL: funds flow (earnings before interest, tax & depreciation)=total liabilities
+    - Sales
+  - Profit
+    - ROCE: profit before tax=capital employed (%)
+    - FFTL: funds flow (earnings before interest, tax & depreciation)=total liabilities
 3) Gearing
 a. GEAR: (current liabilities + long-term debt)=total assets
 b. CLTA: current liabilities=total assets
@@ -23,4 +22,4 @@ c. WCTA: (current assets – current liabilities)=total assets
 7) CHAUD: coded 1 if changed auditor in previous three years, 0 otherwise
 8) BIG6: coded 1 if company auditor is a Big6 auditor, 0 otherwise
 
-- `bankrupt.R`: the main R script.
+2. `bankrupt.R`: the main R script.
